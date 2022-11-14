@@ -56,3 +56,29 @@
 0503: To remove the error in ApplicationDbContext.cs file I installed .EntityFrameworkCore and also modified the namespace to reflect the project.
 
 0505: Deleted all the Calss1.cs files from all three Projects. Build teh project successfully.
+
+0510: Moved the Models folder to .Models Project and deletd the original one.
+
+0511: Added the references for .DataAccess and .Models to VrundBooksStore Project. Also renamed the Models folder to 'ViewModels'.
+
+0512: Build the Project successfully.
+
+0518: Modifiy the Startup.cs service, Added context with using statement. Also removed one using statement.
+
+0519: Corrected Default .ErrorViewModel reference and solved another error by doing this. Run the application successfully without any error.
+
+0523: Added the references to the main project and for .DataAccess I added .Models and .Utility references to the project.
+
+0534: Added Customer areas to the Areas and changed the routs in the Startup.cs and ScaffoldingReadMe.txt.
+
+0535: Moved the HomeController.cs to the Area/Customer/Controller folder and deleted the Data and Models folder. Edited this file.
+
+0537: Moved the Home folder to Areas/Views and edited the namespace.
+
+0538: Run the program successfully.
+
+0549: Added the Admin area to the Areas folder and added the view files in the view folder and deleted the Data and Models Folder.
+
+0550: Also deleted the Contoller folder. Now I am going to run the application.
+
+0551: Application is running successfully and with that Assignment-2 Part-1 is completed.

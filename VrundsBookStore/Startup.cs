@@ -11,7 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using VrundsBookStore.Data;
+using VrundsBookStore.DataAccess.Data;
 
 namespace VrundsBookStore
 {
@@ -31,7 +31,7 @@ namespace VrundsBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             /*services.AddDatabaseDeveloperPageExceptionFilter();*/
-
+                
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
@@ -65,7 +65,7 @@ namespace VrundsBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
