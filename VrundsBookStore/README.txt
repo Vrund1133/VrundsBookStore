@@ -23,4 +23,16 @@
 
 0405: Added two breakpoints in the HomeController.cs File on IActionIndex and Privacy. Now I am going to run the program.
 
-4009: Run the program successfully as showed in the assignment file. Completed 1.2.
+0409: Run the program successfully as showed in the assignment file. Completed 1.2.
+
+0413: Moving to 1.3 Bootstrap.
+
+0413: I downloaded my favourite bootstrap.css file from Bootswatch.com and I am going to replace it in the wwwroot/lib/bootstrap/dist/css/ folder.
+
+0417: I replaced the bootstrap.css file and now I am going to replace the site.css file content with the provided file in the Assignment-2 Folder.
+
+0421: I replaced the site.css and I also edited the _Layout.cshtml file in the Views folder.
+
+0423: Now I am going to edit the _LoginPartial.cshtml file. Removed all the 'text-dark' references from this file.
+
+0425: Run the program successfully but I had to run it by cuntinuing 2 time because of the break points I inserted earlier.
