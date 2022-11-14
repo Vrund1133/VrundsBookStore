@@ -31,8 +31,28 @@
 
 0417: I replaced the bootstrap.css file and now I am going to replace the site.css file content with the provided file in the Assignment-2 Folder.
 
-0421: I replaced the site.css and I also edited the _Layout.cshtml file in the Views folder.
+0421: I replaced the site.css and I also edited the _cfile in the Views folder.
 
 0423: Now I am going to edit the _LoginPartial.cshtml file. Removed all the 'text-dark' references from this file.
 
-0425: Run the program successfully but I had to run it by cuntinuing 2 time because of the break points I inserted earlier.
+0425: Run the program successfully but I had to run it by cuntinuing 2 time because of the break points I inserted earlier. For now I am ignoring this problem.
+
+0430: I started editing _Layout.cshtml file by adding css link from CSS_JS.txt file. added all the links.
+
+0433: Now I am adding dropdown menu. 
+
+0440: Added the dropdown to the menu from the provided bootstrap link and run the program successfully. Changed the Dropdown name to 'Content Manager'.
+
+0445: Completed 1.3. Now moving to 1.4-Add Projects & Modify.
+
+0450: Created three new .NET Core Class Library to the application one by one.
+
+0456: Copy and pasted the Data folder to .DataAccess project and deleted teh original one.
+
+0457: Installed two Microsoft entity frameworks. 1- .Relational and 2- .SqlServer to the .DataAccess project. 
+
+0459: Also Deleted the Migration folder.
+
+0503: To remove the error in ApplicationDbContext.cs file I installed .EntityFrameworkCore and also modified the namespace to reflect the project.
+
+0505: Deleted all the Calss1.cs files from all three Projects. Build teh project successfully.
