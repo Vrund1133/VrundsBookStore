@@ -19,3 +19,8 @@
 
 0358: Reviewed all the files in the View/Shared/ folder and _viewImports.cshtml and _Viewstart.cshtml file.
 
+0402: Moving to 1.2 Debugging. 
+
+0405: Added two breakpoints in the HomeController.cs File on IActionIndex and Privacy. Now I am going to run the program.
+
+4009: Run the program successfully as showed in the assignment file. Completed 1.2.
