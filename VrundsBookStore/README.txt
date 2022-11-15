@@ -124,4 +124,14 @@
 1032: I created new classes named CategoryRepository.cs and ICategoryRepository.cs. ... started modifying first file and getting error 
       in the ICategoryRepository namespace.... then I edited the main namespace in the ICategoryRepository.cs file... 
 
-1054: Also modified ICategoryRepository.cs file and now I am commiting my work to the GitHub.  
+1054: Also modified ICategoryRepository.cs file and now I am commiting my work to the GitHub.
+
+15th November 2022 
+
+0101: After taking a break I created new Interface called ISP_Call.cs in the IRepository folder and edited the code in it.... also created the
+	  a new class Called SP_Call.cs in the Repository folder and added the nessesory code in it.
+
+0104: Again added new interface named IUnitOfWork.cs to IRepository folder and UnitOfWork.cs in Repository folder.... edited both files with
+	  nessesory code and tryig to add the reference to the Startup.cs file but there was an error... I tried a lot to find and after half an 
+	  hour I get it.... I forgot to make the namespace publi in IUnitOfWork.cs file.
+0107: Finally I build the project with zero errors.

@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VrundsBooks.DataAccess.Repository;
+using VrundsBooks.DataAccess.Repository.IRepository;
 using VrundsBookStore.DataAccess.Data;
 
 namespace VrundsBookStore
@@ -35,6 +37,7 @@ namespace VrundsBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             
         }
