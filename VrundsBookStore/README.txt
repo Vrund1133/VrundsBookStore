@@ -82,3 +82,13 @@
 0550: Also deleted the Contoller folder. Now I am going to run the application.
 
 0551: Application is running successfully and with that Assignment-2 Part-1 is completed.
+
+*****************************************************Part-1 Ended*********************************************
+
+14th November 2022
+
+==================================================Assignment-2 Part-2====================================================
+
+0858: Started Assignment-2 Part-2.
+
+0859: Now I am going to start 2.1-Build the DB.
