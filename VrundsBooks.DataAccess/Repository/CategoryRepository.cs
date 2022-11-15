@@ -25,5 +25,10 @@ namespace VrundsBooks.DataAccess.Repository
                 _db.SaveChanges();
             }
         }
+
+        public void Update(Category category)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

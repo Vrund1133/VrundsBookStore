@@ -160,3 +160,13 @@
 	  Edited both files.
 
 0205: added asp-sction in the Upsert.cshtml file. and changed TITLE to @title and run the application successfully.
+
+0222: Created new Upsert POST action method in CategoryController.cs file. Added save and remove method. Also added API call http delete in this class.
+
+0224: Implemented httpdelete in the category.js file  and also added delete functionality which is given in the Assignment-2 file.
+
+0226: Now time to run the application and test it.... Run it successfully and added some content and deleted it successfully.
+
+0227: With this Assignment-2 Part-2 is Completed.
+
+***********************************************************Part-2 Ended***********************************************************

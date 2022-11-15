@@ -8,5 +8,6 @@ namespace VrundsBooks.DataAccess.Repository.IRepository
     public interface ICategoryRepository : IRepository<Category>
     {
         void update(Category category);
+        void Update(Category category);
     }
 }
