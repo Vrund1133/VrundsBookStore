@@ -92,3 +92,11 @@
 0858: Started Assignment-2 Part-2.
 
 0859: Now I am going to start 2.1-Build the DB.
+
+0917: Editing appsetting.json file and named my database 'VrundsBookStore'.
+
+0918: By using Nuget Package Manager I am going to add migration.... but wait I entered new migration command in the default project so it hit the error.
+
+0919: I change the project to .DataAccess and then agian try to add migration....Migration was created successfully. 
+
+0920: I checked it on the Sql Database. and commiting my code to the github.

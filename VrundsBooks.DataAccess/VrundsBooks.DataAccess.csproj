@@ -1,8 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20221115021337_AddDefaultIdentityMigration.cs" />
+    <Compile Remove="Migrations\20221115021337_AddDefaultIdentityMigration.Designer.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.28" />
@@ -13,6 +18,10 @@
   <ItemGroup>
     <ProjectReference Include="..\VrundsBooks.Models\VrundsBooks.Models.csproj" />
     <ProjectReference Include="..\VrundsBooks.Utility\VrundsBooks.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>
