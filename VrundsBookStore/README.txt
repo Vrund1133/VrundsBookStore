@@ -100,3 +100,11 @@
 0919: I change the project to .DataAccess and then agian try to add migration....Migration was created successfully. 
 
 0920: I checked it on the Sql Database. and commiting my code to the github.
+
+0945: The biggest error I was facing is to add the category table to  the  database.... I deleted my whole assignment for this error 
+      and again created from the sctretch. 
+
+	  I again faced this error and tried it for 3 times and after thinking I deleted the AddCategoryToDb migration after updating the ApplicationDbContext.cs
+	  file and again I added the migration for it and finally the table was created and I can see it to the Sql Database.
+
+0949: Now I am pushing my work to the GitHub.

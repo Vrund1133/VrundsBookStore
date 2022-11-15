@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using VrundsBooks.Models;
 
 namespace VrundsBookStore.DataAccess.Data
 {
@@ -12,5 +13,6 @@ namespace VrundsBookStore.DataAccess.Data
             : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
