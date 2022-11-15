@@ -134,4 +134,17 @@
 0104: Again added new interface named IUnitOfWork.cs to IRepository folder and UnitOfWork.cs in Repository folder.... edited both files with
 	  nessesory code and tryig to add the reference to the Startup.cs file but there was an error... I tried a lot to find and after half an 
 	  hour I get it.... I forgot to make the namespace publi in IUnitOfWork.cs file.
+
 0107: Finally I build the project with zero errors.
+
+0110: Moving to next step 2.3-Category CRUD.
+
+0126: Added new MVC Controller file to the Areas/Views/Category folder and edited with adding nessesory code in it.
+
+0127: Created new class file called Index.cshtml in the Category folder and added html code in it and added the path on the top.
+
+0128: I run the application but face an error... I missed something... I type the wrong path in the Index.cshtml file. 
+
+0130: I corrected the error and run the application again... its working well.
+
+0135: Edited the _Layout.cshtml file... move the Category link to the dropdown menu and run the application... Running successfully.
