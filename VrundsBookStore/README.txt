@@ -108,3 +108,20 @@
 	  file and again I added the migration for it and finally the table was created and I can see it to the Sql Database.
 
 0949: Now I am pushing my work to the GitHub.
+
+0950: Now I am moving to 2.2-Repository.
+
+1016: I am creating Repository folder in the .DataAccess project and also creating IRepository Folder to the Repository folder.
+
+1017: Added a new interface called IRepository.cs to the IRepository folder.
+
+1018: After adding the file I am updating the data for the file so it can do all the CRUD oprations.
+
+1019: I am creating new class called Repository.cs in the Repository folder.
+
+1030: I was trying to replace the assignment 2 file but it was hitting errors... so I edited it myself with comparing it to the assignment-2 file. (Repository.cs)
+
+1032: I created new classes named CategoryRepository.cs and ICategoryRepository.cs. ... started modifying first file and getting error 
+      in the ICategoryRepository namespace.... then I edited the main namespace in the ICategoryRepository.cs file... 
+
+1054: Also modified ICategoryRepository.cs file and now I am commiting my work to the GitHub.  
