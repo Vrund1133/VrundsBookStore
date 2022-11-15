@@ -97,7 +97,7 @@
 
 0918: By using Nuget Package Manager I am going to add migration.... but wait I entered new migration command in the default project so it hit the error.
 
-0919: I change the project to .DataAccess and then agian try to add migration....Migration was created successfully. 
+0919: I change the project to .DataAccess and then agian try to add migration....Migration was created successfully - 20221115021515_AddDefaultIdentityMigration.cs
 
 0920: I checked it on the Sql Database. and commiting my code to the github.
 
@@ -168,5 +168,7 @@
 0226: Now time to run the application and test it.... Run it successfully and added some content and deleted it successfully.
 
 0227: With this Assignment-2 Part-2 is Completed.
+
+1036: I changed the color in bootsrap.css file because my database color and the table color was same... I changed the color.
 
 ***********************************************************Part-2 Ended***********************************************************
