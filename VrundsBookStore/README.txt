@@ -148,3 +148,15 @@
 0130: I corrected the error and run the application again... its working well.
 
 0135: Edited the _Layout.cshtml file... move the Category link to the dropdown menu and run the application... Running successfully.
+
+0159: Edited Index.cshtml file and run the appliation ... now I am going to add the category.js file and write the in that file which is available in 
+	  Assignment-2 file.
+
+0201: Run the application successfully...
+
+0202: Added the Upsert.cshtml view in the Category folder and write code in it.
+
+0203: Created two empty view files in the shared folder named _CreateAndBackToListButton.cshtml and _EditAndBackToListButton.cshtml.
+	  Edited both files.
+
+0205: added asp-sction in the Upsert.cshtml file. and changed TITLE to @title and run the application successfully.

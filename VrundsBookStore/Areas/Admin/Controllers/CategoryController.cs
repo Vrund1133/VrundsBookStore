@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using VrundsBooks.DataAccess.Repository.IRepository;
+using VrundsBooks.Models;
 
 namespace VrundsBookStore.Areas.Admin.Controllers
 {
@@ -20,6 +21,23 @@ namespace VrundsBookStore.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                return View(category);
+            }
+
+            category = _unitofWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound(category);
+            }
+            return View(category);
+        }
+
         //API calls here
         #region API CALLS
         [HttpGet]
