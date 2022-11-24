@@ -189,3 +189,9 @@
 	  The file is empty because its the CoverType is not added to the ApplicationDbContext.cs file.
 
 1221: After adding it I deleted the migration and added migration again and the database is created in the sql server.
+
+1251: Created CoverTypeRepository.cs file in Repository folder and created ICoverTypeRepository.cs in IRepository folder.
+
+1254: Edited Code in both files and fixed all the errors. 
+
+1255: Build the project successfully and pushing to GitHub.
