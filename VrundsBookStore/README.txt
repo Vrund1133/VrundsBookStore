@@ -248,3 +248,21 @@
 0354: Updated the Product class and Added [Required] in the class file.
 
 0355: ALso added new migration - 20221124085237_addValidationToProduct in the Database.
+
+0406: Added ProductRepository.cs and IProductRepository.cs to the Repository and IRepository folders.
+
+0407: edited the code in both files.
+
+0409: Added Product reference in the UnitOfWork.cs and IUnitOfWork.cs file. 
+
+0410: Build the project successfully.
+
+0423: Added ProductController.cs file in the Controller folder and added code in the file.
+
+0432: Added new folder named Product in the Views folder.
+
+0433: Inserted a new razar view named Index.cshtml in the Product folder and added the code in it. 
+
+0433: Added the dropdown link in the _Layout.cshtml file.
+
+0434: Build and Run the application... Its working correct.
