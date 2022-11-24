@@ -266,3 +266,9 @@
 0433: Added the dropdown link in the _Layout.cshtml file.
 
 0434: Build and Run the application... Its working correct.
+
+0537: Entering Part-3 Secttion-2. 
+
+0538: Started 3.2(2) - Product CRUD. 
+
+0540: 
