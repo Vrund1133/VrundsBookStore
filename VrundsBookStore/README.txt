@@ -271,4 +271,10 @@
 
 0538: Started 3.2(2) - Product CRUD. 
 
-0540: 
+0540: Added new class to the ViewsModel in the .Models Project named ProductVM.cs.
+
+0541: Edited it and also added IWebHostEnvironment in the ProductController.cs file.
+
+0546: In the ProductVM.cs file I installed Microsoft.AspNetCore.Mvc.ViewFeatures package.
+
+0548: Modified the Index.cshtml in the Product folder and added the neccesory properties.
