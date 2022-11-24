@@ -183,6 +183,10 @@
 
 1149: Creating CoverType.cs file in the .Models folder like Category.cs file.
 
+
+11-24-2022
+
+
 1205: Added content as shown as in Assignment-2 file.
 
 1218: Added migration to the .DataAccess file.....  20221124051541_AddCoverTypeToDb....
@@ -195,3 +199,9 @@
 1254: Edited Code in both files and fixed all the errors. 
 
 1255: Build the project successfully and pushing to GitHub.
+
+0108: Edited UnitofWork.cs and IUnitofWork.cs in the Repository and IRepository folder. 
+
+0109: Added CoverType in both files and Build the Project.
+
+0109: Project Builded Successfully.
