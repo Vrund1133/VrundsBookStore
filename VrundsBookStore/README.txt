@@ -205,3 +205,13 @@
 0109: Added CoverType in both files and Build the Project.
 
 0109: Project Builded Successfully.
+ 
+0136: Created new Controller file called CoverTypeController.cs in the Areas/Admin/Controller folder.
+
+0137: Edited code in the file. 
+
+0137: Added new folder named CoverType in Area/Admin/Views folder.... added new Razar view file named Index.cshtml and edited the code in it.
+
+0139: Run the application and I can see the CreateNewCoverType but now I have to navigate the link for CoverType Dropdown menu in the _Layout.cshtml file.
+
+0140: I added the link and and Its working Successfully.
