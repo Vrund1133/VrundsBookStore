@@ -175,4 +175,17 @@
 
 11-23-2022
 
-1147: Starting Part 3
+==========================================================Assignment-3 Part-3=====================================================
+
+1147: Starting Part-3.
+
+1148: Starting Assignment 1 Part 3.1 - Cover Type CRUD.
+
+1149: Creating CoverType.cs file in the .Models folder like Category.cs file.
+
+1205: Added content as shown as in Assignment-2 file.
+
+1218: Added migration to the .DataAccess file.....  20221124051541_AddCoverTypeToDb....
+	  The file is empty because its the CoverType is not added to the ApplicationDbContext.cs file.
+
+1221: After adding it I deleted the migration and added migration again and the database is created in the sql server.
