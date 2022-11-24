@@ -236,3 +236,11 @@
 
 0330: Starting Part 3.1 - Product CRUD.
 
+0341: Created a new class named Product.cs in the .Models Project.
+
+0342: Edited the code in it..
+
+0342: Added the reference in the ApplicationDbContext.cs file
+
+0343: Run the migration in the PM Console.... Migration Added - 20221124083914_addProductToDb. 
+	  updated the database and checked it on the sql server.
