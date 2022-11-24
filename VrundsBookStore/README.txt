@@ -172,3 +172,7 @@
 1036: I changed the color in bootsrap.css file because my database color and the table color was same... I changed the color.
 
 ***********************************************************Part-2 Ended***********************************************************
+
+11-23-2022
+
+1147: Starting Part 3
