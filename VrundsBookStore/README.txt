@@ -173,7 +173,7 @@
 
 ***********************************************************Part-2 Ended***********************************************************
 
-11-23-2022
+2022-11-23
 
 ==========================================================Assignment-3 Part-3=====================================================
 
@@ -228,7 +228,11 @@
 
 0243: Now I am going to add POST method in CoverTypeController.cs file.
 
+0243: Tere is an error of not showing the edit and delete button on the browser....
+
 0244: Now Added the HTTP Delete mothod in the CvUpsert.cshtml file and also added the delete method in the covertype.js file...
+
+0245: Now I am hoping to have those buttons because I recheck the code and I am oing to run the project....
 
 0245: Finally I am running the application... Successfully run the application and I can add and delete the recort in the Cover Type CRUD.
 
