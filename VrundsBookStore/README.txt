@@ -215,3 +215,21 @@
 0139: Run the application and I can see the CreateNewCoverType but now I have to navigate the link for CoverType Dropdown menu in the _Layout.cshtml file.
 
 0140: I added the link and and Its working Successfully.
+
+0234: Added new covertype.js file in the Js folder.
+
+0239: Added code in the js file and addded the link in the Index.cshtml file.
+
+0240: Test and run the application successfully.
+
+0241: Added IActionResult to the CoverTypeController.cs file.
+
+0241: Added new file named CvUpsert.cshtml in the CoverType folder.... edited the code in it... and added asp-action in the Index.cshtml file.
+
+0243: Now I am going to add POST method in CoverTypeController.cs file.
+
+0244: Now Added the HTTP Delete mothod in the CvUpsert.cshtml file and also added the delete method in the covertype.js file...
+
+0245: Finally I am running the application... Successfully run the application and I can add and delete the recort in the Cover Type CRUD.
+
+0246: Finally completed the Part-3.1 and moving to 3.2.

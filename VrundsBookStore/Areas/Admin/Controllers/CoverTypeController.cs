@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using VrundsBooks.DataAccess.Repository.IRepository;
+using VrundsBooks.Models;
 
 namespace VrundsBookStore.Areas.Admin.Controllers
 {
@@ -21,6 +22,45 @@ namespace VrundsBookStore.Areas.Admin.Controllers
             return View();
         }
 
+        public IActionResult CvUpsert(int? id)
+        {
+            CoverType coverType = new CoverType();
+            if (id == null)
+            {
+                return View(coverType);
+            }
+
+            coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+            if (coverType == null)
+            {
+                return NotFound(coverType);
+            }
+            return View(coverType);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult CvUpsert(CoverType coverType)
+        {
+            if (ModelState.IsValid)
+            {
+                if (coverType.Id == 0)
+                {
+                    _unitOfWork.CoverType.Add(coverType);
+                    _unitOfWork.Save();
+                }
+                else
+                {
+                    _unitOfWork.CoverType.Update(coverType);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+
+            }
+            return View(coverType);
+        }
+
+
         // API Calls
         #region API CALLS
         [HttpGet]
@@ -32,6 +72,18 @@ namespace VrundsBookStore.Areas.Admin.Controllers
             return Json(new { data = allObj });
 
         }
-        #endregion
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.CoverType.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = true, message = "Erroe while Deleting" });
+            }
+            _unitOfWork.CoverType.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
+            #endregion
+        }
     }
 }
