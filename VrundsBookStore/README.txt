@@ -244,3 +244,7 @@
 
 0343: Run the migration in the PM Console.... Migration Added - 20221124083914_addProductToDb. 
 	  updated the database and checked it on the sql server.
+
+0354: Updated the Product class and Added [Required] in the class file.
+
+0355: ALso added new migration - 20221124085237_addValidationToProduct in the Database.
