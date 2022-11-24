@@ -278,3 +278,9 @@
 0546: In the ProductVM.cs file I installed Microsoft.AspNetCore.Mvc.ViewFeatures package.
 
 0548: Modified the Index.cshtml in the Product folder and added the neccesory properties.
+
+0550: Added the code in product.js file and added the link to the _Layout.cshtml file for the Product.
+
+0551: Run the application and Its working very well... 
+
+0551: Completed the Part-3 Section 2 of the Assignment-2.
